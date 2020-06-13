@@ -6,14 +6,16 @@
 body{
 font font-family: "Arial,Helvetica,sans-serif"
 font-size:13px;
-background-color:white;
+background-color: white;
 
 
 
 }
 
 
-
+#slogan{
+	color:white;
+}
 
 #header{
 
@@ -30,7 +32,8 @@ margin-right: auto
 }
 
 #logo h1{
-color: white;
+color:#1293EE; ;
+
 font:38px;
 letter-spacing: 4px;
 padding-top:42px;
@@ -71,8 +74,8 @@ padding-right: 2px;
 padding-left: 26px;
 font-family: sans-serif;
 font-size: 14px;
-
-
+text-decoration: none;
+color:white;
 }
 
 #menu ul li a{
@@ -129,10 +132,21 @@ line-height: 21px;
 
 }
 
+#merhaba{
+	color:black;
+}
+
+#hello h1{
+	color: black;
+	text-align: center;
+}
+
+
+
 
 #başlık_1{
 	color: #333;
-	text-align: left;
+	text-align: center;
 
 }
 
@@ -214,4 +228,100 @@ line-height: 21px;
 
 ul{
 	
+}
+#h1{
+	color: black;
+}
+#hakkımda_giriş{
+	color: #1293EE;
+	text-align: center;
+	line-height: 30px,
+}
+#proje_giriş{
+	
+	color: #1293EE;
+	text-align: center;
+}
+#başarılar_giriş{
+	color: #1293EE;
+	text-align: center;
+}
+#python_giriş{
+	color: #1293EE;
+	text-align: center;
+}
+#kapı_giriş{
+color: #1293EE;
+	text-align: center;
+
+}
+#galeri_giriş{
+	color: #1293EE;
+	text-align: center;
+}
+
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#makale{
+	width: 900px;
+	height:auto;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#kuyruk{
+width: 670px,
+height:725px;
+float:left;
+margin-top:16px;
+
+
+}
+#kuyruk_1,#yapay{
+	padding-top: 16px;
+	padding-bottom: 23px;
+	padding-left: 20px;
+	padding-right: 24px;
+	color:#333;
+	text-align: justify;
+	line-height: 21px;
+}
+ #kuyruk h2{
+font: 22px,
+color:#1293EE;
+margin-bottom: 15px;
+padding-top: 15px;
+padding-bottom: 5px;
+
+
+
+
+ }
+#footer{
+
+	width: 900px,
+	height:33px;
+	text-align: center,
+	background-color#1293EE,
+	color:#FFF;
+	font-family: "Lucida Sans Unicode","Lucida Grande"sans-serif
+	letter-spacing:1px;
+	padding-top: 24px;
+
+
+
 }
