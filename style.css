@@ -313,10 +313,10 @@ padding-bottom: 5px;
  }
 #footer{
 
-	width: 900px,
+	width: 900px;
 	height:33px;
-	text-align: center,
-	background-color#1293EE,
+	text-align: center;
+	background-color:#1293EE;
 	color:#FFF;
 	font-family: "Lucida Sans Unicode","Lucida Grande"sans-serif
 	letter-spacing:1px;
@@ -325,3 +325,5 @@ padding-bottom: 5px;
 
 
 }
+
+
